@@ -4,7 +4,7 @@ export type ExpenseItem = {
 };
 
 export type Expenses = {
-  [month: number]: ExpenseItem[];
+  [year: number]: ExpenseItem[];
 };
 
 export type ExpensesLinkItem = {
