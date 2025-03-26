@@ -10,3 +10,5 @@ export type RecursiveChildren = { [key: string]: NavTreeItem };
 export type NavTree = {
   [key: string]: NavTreeItem | Details;
 };
+
+export default NavTreeItem;
