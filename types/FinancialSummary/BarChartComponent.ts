@@ -27,4 +27,8 @@ export interface Custom1 {
   active?: boolean;
 }
 
+export interface Custom2 {
+  active?: boolean;
+}
+
 export type ExpensesLink = ExpensesLinkItem[];
