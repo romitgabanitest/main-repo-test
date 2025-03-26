@@ -23,6 +23,11 @@ export interface CustomTooltipProps {
   }[];
 }
 
+
+export interface Custom {
+  active?: boolean;
+}
+
 export interface Custom1 {
   active?: boolean;
 }
