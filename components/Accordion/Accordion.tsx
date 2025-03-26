@@ -14,7 +14,9 @@ export interface AccordionProps {
 /**
  * This is the Accordion component. It displays a list of items that can be expanded or collapsed.
  */
-export default function Accordion({ accordionItems = [] }: AccordionProps) {
+export default function Accordion({
+  accordionItems = [],
+}: AccordionProps): any {
   const [activeIndex, setActiveIndex] = React.useState<number | null>(null);
 
   return (
