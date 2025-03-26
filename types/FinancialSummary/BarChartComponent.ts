@@ -23,4 +23,8 @@ export interface CustomTooltipProps {
   }[];
 }
 
+export interface Custom1 {
+  active?: boolean;
+}
+
 export type ExpensesLink = ExpensesLinkItem[];
